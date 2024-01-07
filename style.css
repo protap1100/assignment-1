@@ -1,0 +1,98 @@
+/* Universal style */
+* {    
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* header section style */
+
+.new-year-header{
+    background-image: url(image/banner/Banner-Image.png);
+    margin: auto;
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+}
+.new-year{
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+.new-year-content{
+    color: #FFF;
+    text-align: center;
+    font-size: 50px;
+    line-height: 95px;
+    padding: 200px 344px 130px 344px;
+}
+
+.new-year-content h4{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.new-year-content h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* main section style */
+
+/* holiday section style */
+section{
+    font-family: 'Roboto Slab', serif;
+}
+.holiday-section{
+    border: 1px solid black;
+    display: block;
+    position: absolute;
+    margin-left: 530px;
+    text-align: center;
+    width: 803px;
+    background-color: #FFF;
+}
+.holiday-section .new-year-image{
+    margin-top: 50px;
+}
+.holiday-section h2{
+    font-family: 'Roboto Slab', serif;
+    color: #F00;
+    text-align: center;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.holiday-section h3{
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.holiday-section h4{
+    font-family: 'Roboto Slab', serif;
+    color: #F00;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 10px;
+}
+
