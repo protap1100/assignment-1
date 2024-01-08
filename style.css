@@ -1,6 +1,8 @@
 /* Universal style */
 * {    
     font-family: 'Roboto Slab', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
     margin: 0;
     padding: 0;
 }
@@ -26,9 +28,7 @@
 .new-year h4{
     color: #FFF;
     text-align: center;
-    font-family: Merriweather;
     font-size: 32px;
-    font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
@@ -36,9 +36,8 @@
 .new-year h3{
     color: #FFF;
     text-align: center;
-    font-family: Merriweather;
+    font-family: Roboto Slab;
     font-size: 72px;
-    font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
@@ -46,10 +45,7 @@
 /* main section style */
 
 /* holiday section style */
-section{
-    font-family: 'Roboto Slab', serif;
-    display: block;
-}
+
 .holiday-section{
     margin:auto;
     text-align: center;
@@ -61,7 +57,7 @@ section{
     margin-top: 50px;
 }
 .holiday-section h2{
-    font-family: 'Roboto Slab', serif;
+    font-family: Roboto Slab;
     color: #F00;
     text-align: center;
     font-size: 52px;
@@ -70,15 +66,18 @@ section{
 .holiday-section h3{
     color: #070211;
     text-align: center;
-    font-size: 28px;
+    font-size: 35px;
+    margin-top: 10px;
+    font-family: Roboto Slab;
 }
 
 .holiday-section h4{
-    font-family: 'Roboto Slab', serif;
+    font-family: Roboto Slab;
     color: #F00;
     text-align: center;
-    font-size: 14px;
+    font-size: 18px;
     margin: 10px;
+    margin-top: 40px;
 }
 
 /* Welcome Section style */
@@ -106,7 +105,6 @@ section{
 .welcome-section .welcome-content h3{
     color: #FFF;
     font-size: 64px;
-    font-style: normal;
     font-weight: 900;
     line-height: 88px; 
     letter-spacing: 7.04px;
@@ -116,7 +114,6 @@ section{
     color: rgba(255, 255, 255, 0.80);
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px; 
 }
@@ -148,7 +145,6 @@ section{
     color: #F00;
     text-align: center;
     font-size: 32px;
-    font-style: normal;
     font-weight: 600;
     line-height: 56px; 
     text-transform: capitalize;
@@ -157,7 +153,6 @@ section{
 .venue-section .venue-content span{
     color: #070211;
     font-size: 32px;
-    font-style: normal;
     font-weight: 600;
     line-height: 56px;
     text-transform: capitalize;
@@ -282,7 +277,6 @@ section{
     color: #070211;
     font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
     line-height: normal;
 }
@@ -291,7 +285,6 @@ section{
     color: #070211;
     font-family: Merriweather;
     font-size: 72px;
-    font-style: normal;
     font-weight: 900;
     line-height: normal;
 }
@@ -301,7 +294,6 @@ section{
     text-align: center;
     font-family: Merriweather;
     font-size: 72px;
-    font-style: normal;
     font-weight: 900;
     line-height: normal;
 }
@@ -311,9 +303,9 @@ section{
     text-align: center;
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 32px; 
+    margin-top: 15px;
 }
 
 
@@ -368,17 +360,16 @@ section{
 .portfolio-section .portfolio-content h2{
     color: #070211;
     font-size: 48px;
-    font-style: normal;
     font-weight: 900;
     margin-top: 22px;
 }
 
 .portfolio-section .portfolio-content p{
     color: rgba(7, 2, 17, 0.60);
-    font-size: 20px;
-    font-style: normal;
+    font-size: 16px;
     margin-top: 22px;
     margin-bottom: 22px;
+    width: 950px;
 }
 
 .portfolio-section .portfolio-image{
@@ -420,7 +411,6 @@ section{
     color: #070211;
     text-align: center;
     padding-top: 20px;
-    font-family: Merriweather;
     font-size: 48px;
 }
 
@@ -492,7 +482,6 @@ footer{
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
     line-height: 40px; 
 }
@@ -502,7 +491,6 @@ footer{
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
     text-align: left;
     line-height: 40px; 
@@ -512,7 +500,6 @@ footer{
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
     margin-left: 20px;
     text-align: left;
@@ -543,7 +530,6 @@ footer .reserved h4{
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
     line-height: normal;
 }
