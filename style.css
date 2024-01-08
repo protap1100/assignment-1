@@ -173,3 +173,93 @@ section{
     margin-top: 48px;
     cursor: pointer;
 }
+
+/* offer section style */
+
+.offer-section{
+    height: 463px;
+    width: 1320px;
+    background-color: #FFF;
+    margin: auto;
+    justify-content: space-around;
+    display: flex;
+}
+
+.offer-section .offer-coming{
+    width: 415px;
+    height: 463px;
+    margin-top: 120px;
+}
+
+
+
+.offer-section .offer-coming h3{
+    color: #F00;
+    font-size: 24px;
+}
+
+.offer-section .offer-coming h2{
+    color: #070211;
+    font-size: 48px;
+    margin-top: 20px;
+}
+
+.offer-section .offer-coming p{
+    color: #070211;
+    font-size: 16px;
+    margin-top: 20px;
+    font-family: Inter;
+    line-height: 24px;
+}
+
+
+.offer-image{
+    margin-right: -30px;
+}
+
+
+
+.offer-section .offer-image .round{
+    width: 490px;
+    height: 443px;
+    text-align: center;
+    border: 10px solid red;
+    border-radius: 50%;
+}
+
+.offer-section .offer-image img{
+    width: 427px;
+    height: 401px;
+    text-align: center;
+    border: 20px solid white;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.offer-section  .offer-2024 {
+    width: 140px;
+    height: 140px;
+    margin-right: 150px;
+    margin-top: 62px;
+    margin-left: 100px;
+    padding: 30px;
+}
+
+.offer-section  .offer-2024 h3{
+    color: #F00;
+    font-size: 48px;
+}
+
+.offer-section  .offer-2024 p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    width: 300px;
+    margin-top: 20px;
+    font-family: Inter;
+    line-height: 24px;
+}
+
+.offer-section  .offer-2024 .new-year-img{
+    margin-top: 40px;
+}
+
