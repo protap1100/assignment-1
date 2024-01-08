@@ -183,6 +183,7 @@ section{
     margin: auto;
     justify-content: space-around;
     display: flex;
+    margin-top: 120px;
 }
 
 .offer-section .offer-coming{
@@ -262,4 +263,138 @@ section{
 .offer-section  .offer-2024 .new-year-img{
     margin-top: 40px;
 }
+
+/* sale section style */
+
+.sale-section{
+    height: 900px;
+    width: 1320px;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 120px;
+}
+
+.sale-section .sale-content{
+    text-align: center;
+    width: 1068px;
+    height: 174px;
+    margin-left: 126px;
+}
+.sale-section .sale-content h3{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.sale-section .sale-content h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.sale-section .sale-content span{
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.sale-section .sale-content p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; 
+}
+
+
+.sale-image {
+    width: 1320px; 
+    height: 726px; 
+    background-image:
+        url('image/rectangle/Rectangle\ 1.png'),
+        url('image/rectangle/Rectangle\ 2.png'),
+        url('image/Group\ 44.png'),
+        url('image/Group\ 75.png');
+    background-size:
+        40% 65%,
+        100% 35%,
+        30% 40%,
+        30% 40%;
+    background-position:
+        right top,
+        bottom;
+    background-repeat: no-repeat; 
+}
+
+/* portfolio section style */
+
+.portfolio-section{
+    width: 1320px;
+    height: auto;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.portfolio-section .porTfolio-content{
+    max-width: 896px;
+}
+
+.portfolio-section .portfolio-content h3{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    line-height: normal;
+}
+
+.portfolio-section .portfolio-content h2{
+    color: #070211;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    margin-top: 22px;
+}
+
+.portfolio-section .portfolio-content p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-style: normal;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+.portfolio-section .portfolio-image{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.portfolio-section .porTfolio-content img{
+    margin: 10px;
+}
+
+.subscribe-section{
+    width: 1320px;
+    height: auto;
+    margin: auto;
+    margin-top: 120px;
+    height: 700px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+
+
+
 
