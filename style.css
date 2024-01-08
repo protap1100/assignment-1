@@ -51,10 +51,9 @@ section{
     display: block;
 }
 .holiday-section{
-    display: block;
-    margin-left: 530px;
+    margin:auto;
     text-align: center;
-    width: 803px;
+    width: 80%;
     background-color: #FFF;
     margin-top: 120px;
 }
@@ -109,7 +108,7 @@ section{
     font-size: 64px;
     font-style: normal;
     font-weight: 900;
-    line-height: 88px; /* 137.5% */
+    line-height: 88px; 
     letter-spacing: 7.04px;
 }
 
@@ -119,7 +118,7 @@ section{
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 166.667% */
+    line-height: 30px; 
 }
 
 .welcome-section .welcome-content .join-btn{
@@ -151,7 +150,7 @@ section{
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
-    line-height: 56px; /* 175% */
+    line-height: 56px; 
     text-transform: capitalize;
 }
 
@@ -267,7 +266,7 @@ section{
 /* sale section style */
 
 .sale-section{
-    height: 900px;
+    height: auto;
     width: 1320px;
     margin: auto;
     margin-top: 120px;
@@ -351,6 +350,10 @@ section{
     margin-top: 120px;
 }
 
+.portfolio-content{
+    margin-top: 120px;
+}
+
 .portfolio-section .porTfolio-content{
     max-width: 896px;
 }
@@ -399,7 +402,7 @@ section{
 /* subscribe section style */
 
 .subscribe-section{
-    width: 1320px;
+    width: 1250px;
     height: auto;
     margin: auto;
     margin-top: 120px;
@@ -491,19 +494,35 @@ footer{
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    line-height: 40px; /* 166.667% */
+    line-height: 40px; 
 }
 
 
-.footer-section .address-section p{
+.footer-section .address-section .foot-img p{
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     text-align: left;
-    line-height: 40px; /* 166.667% */
+    line-height: 40px; 
 }
+
+.footer-section .address-section  .foot-img span{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.footer-section .address-section  .foot-img img{
+    margin: 0px -10px -5px 0px;
+}
+
+
 
 
 footer .social{
