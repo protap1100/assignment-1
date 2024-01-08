@@ -270,7 +270,6 @@ section{
     height: 900px;
     width: 1320px;
     margin: auto;
-    border: 1px solid black;
     margin-top: 120px;
 }
 
@@ -324,18 +323,23 @@ section{
     height: 726px; 
     background-image:
         url('image/rectangle/Rectangle\ 1.png'),
-        url('image/rectangle/Rectangle\ 2.png'),
-        url('image/Group\ 44.png'),
-        url('image/Group\ 75.png');
+        url('image/rectangle/Rectangle\ 2.png');
     background-size:
-        40% 65%,
-        100% 35%,
-        30% 40%,
-        30% 40%;
+        35% 65%,
+        100% 35%;
     background-position:
         right top,
         bottom;
     background-repeat: no-repeat; 
+    margin-top: 60px;
+}
+
+/* .sale-image .img-1{
+    height: ;
+} */
+
+.sale-image .img-2{
+    margin: 0px 0px 280px -100px;
 }
 
 /* portfolio section style */
@@ -378,23 +382,149 @@ section{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
+    padding-top: 30px;
 }
 
-.portfolio-section .porTfolio-content img{
+.portfolio-section .portfolio-image img{
     margin: 10px;
+    opacity: 1; /* Initial opacity */
+    transition: opacity .5s ease-in-out;
+    cursor: pointer;
 }
+
+.portfolio-section .portfolio-image img:hover{
+    opacity: 0.7;
+}
+
+/* subscribe section style */
 
 .subscribe-section{
     width: 1320px;
     height: auto;
     margin: auto;
     margin-top: 120px;
-    height: 700px;
+    height: 616px;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
 }
 
+.subscribe-section .subscribe-content{
+    text-align: center;
+    padding-top: 80px;
+}
+
+.subscribe-section .subscribe-content h3{
+    color: #070211;
+    text-align: center;
+    padding-top: 20px;
+    font-family: Merriweather;
+    font-size: 48px;
+}
+
+.subscribe-section .subscribe-content p{
+    margin: 0px 230px 0px 230px;
+    padding-top: 30px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+
+/* Subscribe button style */
+
+.subscribe-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.subscribe-section input {
+    border:none;
+    border-radius: 20px 0px 0px 20px;
+    height:50px;
+    width:400px;
+}
+
+.subscribe-section input[type="button"] {
+    border-radius: 0 20px 20px 0;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+    height:50px;            
+    width:250px;
+    border:none;
+}
+
+.subscribe-section input::placeholder {
+    text-align: left;
+    padding-left: 30px; 
+}
+
+/* footer section style */
+
+footer{
+    margin: auto;
+    height: 600px;
+    width: 100%;
+    background-color: #070211;
+    margin-top: 120px;
+}
+
+.footer-section{
+    width: 80%;
+    margin: auto;
+}
+
+.footer-section .address-section{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 60px 0px 60px 0px;
+}
+
+.footer-section .address-section h2{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 166.667% */
+}
 
 
+.footer-section .address-section p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: left;
+    line-height: 40px; /* 166.667% */
+}
 
 
+footer .social{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 80px 0px 80px 0px;
+}
+
+footer .reserved{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px 50px 0px;
+}
+
+footer .reserved h4{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
