@@ -258,7 +258,7 @@
     margin-top: 40px;
 }
 
-/* sale section style */
+/* sale section styles */
 
 .sale-section{
     height: auto;
@@ -325,9 +325,6 @@
     margin-top: 60px;
 }
 
-/* .sale-image .img-1{
-    height: ;
-} */
 
 .sale-image .img-2{
     margin: 0px 0px 280px -100px;
@@ -510,7 +507,7 @@ footer{
 }
 
 
-
+/* Footer social styles */
 
 footer .social{
     display: flex;
